@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.238">
+    <testcase classname="Student Rest API" name="User Calls Student Rest API to check Student Id Exist or not" time="9.97">
+        <system-out><![CDATA[Given Request with Id "101".................................................passed
+And Student gets retrieve by id.............................................passed
+When Validate status code will be 200.......................................passed
+Then Print Response.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Student Rest API" name="User Calls Student Rest API to get all Student details" time="0.332">
+        <system-out><![CDATA[Given hit the url...........................................................passed
+And get Student Details.....................................................passed
+When Validate status code as 200............................................passed
+Then print Response body....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
